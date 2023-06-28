@@ -501,7 +501,7 @@ def run_vqe(backend,ansatz, experiment_series, initial_params, iterations = 30, 
     
 #     ansatz = get_linear_ansatz(nqubits, vqe_layers, entanglement, onequbit_gate = onequbit_gate, twoqubit_gate =twoqubit_gate, constant_depth = constant_depth , measure = True)
 #     ansatz = transpile(ansatz, backend,optimization_level=1)
-    
+    initial_params = np.ones(ansatz.num_parameters)*np.pi/2
     results = dict()
 
     convergence_energy, variances, errors, params,all_params, total_iters, all_counts = run_fvqe(nqubits, Q, offset, MT_postpruning,
