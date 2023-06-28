@@ -11,3 +11,4 @@ qiskit_ibmq_provider==0.19.2
 qiskit_optimization==0.4.0
 qiskit_terra==0.22.3
 scipy==1.9.1
+pylatexenc==2.10
