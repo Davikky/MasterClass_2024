@@ -485,7 +485,7 @@ def run_fvqe(nqubits, Q, offset, MT_postpruning, O_j, initial_params, backend, i
 
     
 
-def run_vqe(backend,ansatz, experiment_series, initial_params, iterations = 30, shots = 500, tol = 0): 
+def run_vqe(backend,ansatz, experiment_series, iterations = 30, shots = 500, tol = 0): 
     
     Q = experiment_series.active_experiment.pruning_data.Qpruned
     offset= experiment_series.active_experiment.offset
@@ -493,11 +493,7 @@ def run_vqe(backend,ansatz, experiment_series, initial_params, iterations = 30, 
 
     O_j = experiment_series.data.O_j
     nqubits = Q.shape[0]
-
-     
     backend.set_options(shots=shots)
-
-    
     
 #     ansatz = get_linear_ansatz(nqubits, vqe_layers, entanglement, onequbit_gate = onequbit_gate, twoqubit_gate =twoqubit_gate, constant_depth = constant_depth , measure = True)
 #     ansatz = transpile(ansatz, backend,optimization_level=1)
