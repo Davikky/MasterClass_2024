@@ -9,4 +9,4 @@ Make sure all libraries in requierement.txt are installed. To install the requie
 
 pip install -r requirements.txt
 
-
+In case you are more familiar with python and know how to work with virtual environment it would be recomended to create on for this project. This is optional and it is only in case you have other open projects with qiskit.
