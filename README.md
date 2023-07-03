@@ -9,6 +9,11 @@ The workshop will follow a presentation and a jupyter notebook where you will do
 
 https://realpython.com/jupyter-notebook-introduction/
 
+In case you have never used Github before you can download the entire repository as a zip file and store it in your device:
+
+<img width="519" alt="image" src="https://github.com/jose9808/MasterClass_2023/assets/63043065/a44b8b78-aa31-4461-bc17-136a12019e6e">
+
+
 Make sure all libraries in requierement.txt are installed. To install the requierements open your terminal and use the command 
 
 pip install -r requirements.txt
