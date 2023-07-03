@@ -5,6 +5,10 @@ To follow this workshop you will need to install python on your device. If you a
 
 https://www.python.org/about/gettingstarted/
 
+The workshop will follow a presentation and a jupyter notebook where you will do some exercise and run some prebuild code. In case you are not familiar with jupyter and you want to learn a little bit before the workshop (this is not necessary though), you can follow the first steps from this link: 
+
+https://realpython.com/jupyter-notebook-introduction/
+
 Make sure all libraries in requierement.txt are installed. To install the requierements open your terminal and use the command 
 
 pip install -r requirements.txt
